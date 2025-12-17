@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CampusWire | College News & Updates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>📢 CampusWire</h1>
+    <p>Stay Updated with Campus News & Events</p>
+    <button id="themeToggle">🌙 Toggle Theme</button>
+</header>
+
+<nav>
+    <select id="departmentFilter">
+        <option value="all">All Departments</option>
+        <option value="cse">CSE</option>
+        <option value="ece">ECE</option>
+        <option value="management">Management</option>
+        <option value="sports">Sports</option>
+    </select>
+
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+        <option value="announcement">Announcement</option>
+        <option value="event">Event</option>
+        <option value="exam">Exam</option>
+    </select>
+</nav>
+
+<main>
+    <section class="notification" id="notificationBar">
+        🚨 Urgent: Semester exams schedule released!
+    </section>
+
+    <section id="newsContainer" class="news-grid"></section>
+</main>
+
+<footer>
+    <p>© 2025 CampusWire | College News Dashboard</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
